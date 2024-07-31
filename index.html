@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Dictionary App</title>
+</head>
+<body class="bg-violet-400">
+    <audio id="sound" src=""></audio>
+    <div class="container bg-white w-4/5 md:w-3/5 absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 py-20 px-12 rounded-xl shadow-[0px_20px_40px_rgba(38,33,61,2)]">
+        <div class="search-box w-full flex justify-between">
+            <input class="p-1 w-8/12 border-0 outline-none border-b-4 border-solid border-violet-400 text-base"type="text" placeholder="Type the word here... " id="inp-word">
+            <button id="search-btn" class="py-1 px-0 w-1/4 bg-violet-400 border-0 outline-none text-white rounded-md">Search</button>
+        </div>
+        <div class="result relative" id="result">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
